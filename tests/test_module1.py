@@ -1,12 +1,12 @@
 import unittest
 
-from lagrange_workflow.module1 import Number
+from lagrange_workflow.read_file import ReadFile
 
 
 class TestSimple(unittest.TestCase):
 
     def test_add(self):
-        self.assertEqual((Number(5) + Number(6)).value, 11)
+        pass
 
 
 if __name__ == '__main__':
