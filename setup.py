@@ -4,19 +4,19 @@ with open('README.md', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='example_pypi_package',
+    name='example_lagrange_workflow',
     author='Tom Chen',
     author_email='tomchen.org@gmail.com',
     description='Example PyPI (Python Package Index) Package',
     keywords='example, pypi, package',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/tomchen/example_pypi_package',
+    url='https://github.com/tomchen/example_lagrange_workflow',
     project_urls={
-        'Documentation': 'https://github.com/tomchen/example_pypi_package',
+        'Documentation': 'https://github.com/tomchen/example_lagrange_workflow',
         'Bug Reports':
-        'https://github.com/tomchen/example_pypi_package/issues',
-        'Source Code': 'https://github.com/tomchen/example_pypi_package',
+        'https://github.com/tomchen/example_lagrange_workflow/issues',
+        'Source Code': 'https://github.com/tomchen/example_lagrange_workflow',
         # 'Funding': '',
         # 'Say Thanks!': '',
     },
@@ -46,8 +46,8 @@ setuptools.setup(
     },
     # entry_points={
     #     'console_scripts': [  # This can provide executable scripts
-    #         'run=examplepy:main',
-    # You can execute `run` in bash to run `main()` in src/examplepy/__init__.py
+    #         'run=lagrange_workflow:main',
+    # You can execute `run` in bash to run `main()` in src/lagrange_workflow/__init__.py
     #     ],
     # },
 )
