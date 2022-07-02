@@ -5,18 +5,18 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setuptools.setup(
     name='example_lagrange_workflow',
-    author='Tom Chen',
-    author_email='tomchen.org@gmail.com',
-    description='Example PyPI (Python Package Index) Package',
+    author='Sadegh Zeynali',
+    author_email='sadegh.z@gmail.com',
+    description='Example lagrange PyPI (Python Package Index) Package',
     keywords='example, pypi, package',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/tomchen/example_lagrange_workflow',
+    url='https://github.com/szainalie/example_lagrange_workflow',
     project_urls={
-        'Documentation': 'https://github.com/tomchen/example_lagrange_workflow',
+        'Documentation': 'https://github.com/szainalie/example_lagrange_workflow',
         'Bug Reports':
-        'https://github.com/tomchen/example_lagrange_workflow/issues',
-        'Source Code': 'https://github.com/tomchen/example_lagrange_workflow',
+        'https://github.com/szainalie/example_lagrange_workflow/issues',
+        'Source Code': 'https://github.com/szainalie/example_lagrange_workflow',
         # 'Funding': '',
         # 'Say Thanks!': '',
     },
